@@ -4,7 +4,17 @@
     <div align="center">
       <v-row justify="center">
         <v-col cols="6">
-          <v-text-field label="検索" single-line outlined></v-text-field>
+          <v-text-field
+            v-model="message"
+            label="検索"
+            type="text"
+            single-line
+            outlined
+          >
+            <template v-slot:append-outer>
+              <v-btn color="primary">検索</v-btn>
+            </template>
+          </v-text-field>
         </v-col>
       </v-row>
       <h4 class="ma-5">カテゴリ人気順</h4>

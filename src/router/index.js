@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Main from '../views/Main.vue'
+import recruitDetail from '../views/recruitDetail.vue'
 
 Vue.use(VueRouter)
 
@@ -29,6 +30,11 @@ const routes = [
     path: '/main',
     name: 'Main',
     component: Main
+  },
+  {
+    path: '/recruitDetail',
+    name: 'recruitDetail',
+    component: recruitDetail
   }
 ]
 
