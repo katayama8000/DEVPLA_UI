@@ -22,7 +22,7 @@
           <v-btn class="ma-5" @click="submit">ログイン</v-btn>
           <v-btn class="ma-5"><router-link to="/register">新規会員登録</router-link></v-btn>
         </v-row>
-          <span>登録していない方はこちら → </span>
+          <!-- <span>登録していない方はこちら → </span> -->
       </v-form>
     </v-card-text>
   </v-card>
