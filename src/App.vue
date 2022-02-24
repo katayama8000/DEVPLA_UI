@@ -7,6 +7,7 @@
       <router-link to="signUp" class="pa-5">SignUp</router-link>
       <router-link to="main" class="pa-5">Main</router-link>
       <router-link to="recruitDetail" class="pa-5">recruitDetail</router-link>
+      <router-link to="register" class="pa-5">register</router-link>
     </v-app-bar>
 
     <v-main>

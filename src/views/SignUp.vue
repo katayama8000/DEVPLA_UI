@@ -1,7 +1,7 @@
 <template>
   <v-card width="400px" class="mx-auto mt-5">
     <v-card-title>
-      <h1>新規登録</h1>
+      <h1>ログイン</h1>
     </v-card-title>
     <v-card-text>
       <v-form>
@@ -19,9 +19,8 @@
           v-model="password"
         />
         <v-row class="justify-center">
-          <!-- <v-btn class="ma-5" @click="submit">ログイン</v-btn> -->
-          <!-- <v-btn class="ma-5"><router-link to="/register">新規会員登録</router-link></v-btn> -->
-          <v-btn class="ma-5">新規会員登録</v-btn>
+          <v-btn class="ma-5" @click="submit">ログイン</v-btn>
+          <v-btn class="ma-5"><router-link to="/signup">新規登録</router-link></v-btn>
         </v-row>
           <!-- <span>登録していない方はこちら → </span> -->
       </v-form>
